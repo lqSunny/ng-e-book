@@ -1,0 +1,40 @@
+ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.content {
+  padding: 20px;
+}
+.content .box {
+  display: inline-block;
+  width: 100%;
+  height: 250px;
+  background-color: #ffffff;
+}
+.image {
+  overflow: hidden;
+}
+.content .box img {
+  transition:transform 1s, box-shadow 1s;
+  width: 100%;
+  max-height: 150px;
+}
+.content .box img:hover {
+  cursor: pointer;
+  transform:scale(1.2);
+}
+.content .box .info {
+  padding: 10px;
+}
+.content .box .info .desc {
+  color: #a5a6a6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rating {
+  float: right;
+  padding-right: 10px;
+  font-family: Georgia;
+  color: #ff722c;
+}
