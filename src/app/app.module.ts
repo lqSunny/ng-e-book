@@ -9,13 +9,15 @@ import { BookDetailComponent } from './book-detail/book-detail.component';
 import { AppRoutingModule } from './app-routing.module';
 import {EbookService} from './ebook.service';
 import {HttpModule} from '@angular/http';
+import { BookItemComponent } from './book-item/book-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BooksSummaryComponent,
     LoginComponent,
-    BookDetailComponent
+    BookDetailComponent,
+    BookItemComponent
   ],
   imports: [
     BrowserModule,
